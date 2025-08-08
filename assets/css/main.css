@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
+/* import font campton */
+@import url("https://fonts.googleapis.com/css2?family=Campton&display=swap");
+@import "tailwindcss";
+
+.font-vina {
+  font-family: "Vina Sans", cursive;
+}
+.font-campton {
+  font-family: "Campton", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181a20;
+  
+  /* overflow: hidden; */
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height:100dvh;
+  object-fit: cover;
+
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: relative;
+  width: 100%;
+  padding: 20px; 
+  /* background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  */
+}
+
+ 
